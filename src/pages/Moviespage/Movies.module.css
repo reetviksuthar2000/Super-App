@@ -1,0 +1,69 @@
+.movies{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.top{
+    display: flex;
+    height: 13vh;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.top h1{
+    margin-left: 46px;
+}
+.top img{
+    margin-right: 46px;
+    width: 64px;
+}  
+.top button{
+    margin-top: 5px;
+    margin-left: 46px;
+    width: 89px;
+    border: none;
+    height: 23px;
+    color: white;
+    background: green;
+    font-weight: 600;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.bottom{
+    height: 80vh;
+    color: white;
+} 
+
+/* moviecard component css*/
+.moviecard{
+    height: 80vh;
+}
+.moviecard p{
+    font-size: 27px;
+    margin-left: 60px;
+}
+.moviecard h2{
+    margin-left: 64px;
+}
+.mapdiv{
+    display: flex;
+}
+.firstcategory{
+    height: 128px;
+    display: flex;
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    column-gap: 61px;
+    margin-top: 10px;
+}
+.firstcategory p  {
+    font-size: 27px;
+}
+.firstcategory img{
+    height: 103px;
+    width: 225px;
+}
+

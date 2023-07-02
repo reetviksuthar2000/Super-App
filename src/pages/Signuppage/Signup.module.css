@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    display: flex;
+}
+.left{
+    display: flex;
+    align-items: flex-end;
+    width: 50vw;
+    height: 100vh;
+    background-image: url(/src/Assets/firstimg.png);
+    background-size: cover;
+}
+.heading{
+    margin-left: 33px;
+    color: white;
+    Font: Roboto;
+    font-weight: 900;
+    font-size: 35px;
+   
+    letter-spacing: 2%;
+    margin-bottom: 51px;
+}
+
+/* form component css*/
+
+.formpage{
+    width: 50vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+
+    margin-top: 40px;
+}
+.head{
+    color: #72DB73;
+    margin-left: 30px;
+   
+}
+.ptop{
+    margin-top: 10px;
+    color: white;
+}
+form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+#name, #username , #email, #mobile{
+    margin-top: 13px;
+    width: 300px;
+    height: 39px;
+    background: #292929;
+    border: none;
+    padding-left: 10px;
+    color: white;
+    border-radius: 3px;
+}
+
+
+.checkbox{
+    display: flex;
+    margin-top: 15px;
+    justify-content: flex-start;
+    gap: 10px;
+    color: white;
+    font-size: 13px;
+}
+.boxtext{
+    color: #7C7C7C;
+}
+.label{
+    color: red;
+    margin-top: 6px;
+    font-size: 10px;
+    
+
+}
+.btn{
+    background: #72DB73;
+    border: none;
+    border-radius: 25px;
+    height: 33px;
+   
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 310px;
+    cursor: pointer;
+}
+.link{
+    margin-top:25px;
+}
+.bottom{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+  
+    width: 300px;
+    line-height: 22px;
+    font-size: 12px;
+}
+.para{
+    color: white;
+    
+
+}
+.inner{
+    color: #72DB73;
+}

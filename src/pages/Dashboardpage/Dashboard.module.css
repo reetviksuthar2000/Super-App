@@ -1,0 +1,401 @@
+.dashboard{
+   
+    display: flex ;
+    flex: 1;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 30px 20px 0px 25px;
+   
+    height: 90vh;
+}
+.topcomp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    height: 378px;
+
+    
+}
+.leftcomp{
+    width: 520px;
+    display: flex;
+    
+    flex-direction: column;
+}
+.rightcomp{
+    
+    display: flex;
+    color: black;
+    width: 447px;
+    flex-direction: column;
+}
+.bottomcomp{
+    display: flex;
+    
+    
+    
+}
+.rightside{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.profile{
+    width: 476px;
+    height: 202px;
+    background: #5746EA;
+    
+    border-radius: 22px;
+   
+    background-image: url(../../Assets/profileimg.png);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-size: 89px;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+ 
+}
+.userd{
+    margin-top: 3px;
+}
+.name{
+    font-size: 20px;
+}
+.email{
+    font-size: 19px;
+    margin-top: 6px;
+}
+
+.btns{
+        
+        width: 290px;
+        margin-left: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 10px;
+    
+}
+.catbtn{
+    width: 139px;
+    height: 28px;
+    background: #9F94FF;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    padding-left: 28px;
+}
+
+/* whether component css design */
+
+.whether{
+    width: 476px;
+    height: 134px;
+    background: #101744;
+    
+    border-radius: 22px;
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+ 
+}
+.top{
+    background: #FF4ADE;
+    width: 475px;
+    height: 30px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.bottom{
+    height: 102px;
+    width: 476px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 31px;
+}
+.climate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.climate img{
+    width: 45px;
+    height: 54px;
+}
+.climate p{
+    font-size: 15px;
+}
+.line1{
+    
+    
+    position: absolute;
+    top: 26px;
+    left: 144px;
+    height: 50px;
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+    /* width: 83px; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    row-gap: 8px;
+}
+.te{
+    font-size: 32px;
+}
+.btm{
+    display: flex;
+    align-items: center;
+    
+}
+.btm img{
+    height: 27px;
+    margin-right: 6px;
+}
+.line2{
+    position: absolute;
+    top: 26px;
+    left: 307px;
+    height: 50px;
+}
+.condition{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.winds{
+    display: flex;
+    align-items: center;
+    
+}
+.winds img{
+    height: 23px;
+    margin-right: 6px;
+}
+.humiditys{
+    display: flex;
+    align-items: center;
+    
+}
+.humiditys img{
+    height: 23px;
+    margin-right: 6px;
+}
+
+/*  news component css */
+
+.news{
+    width: 280px;
+    height: 540px;
+    background: #ffffff;
+   
+    border-radius: 15px;
+    display: flex;
+    
+    flex-direction: column;
+    
+ 
+}
+.transbac{
+    height: 300px;
+    width: 280px;
+    background: #000000;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.transbac img{
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.light{
+    background: black;
+    position: fixed;
+    top: 254px;
+    height: 76px;
+    width: 280px;
+    opacity: 0.5;
+    line-height: 18px;
+}
+.para{
+    color: white;
+    
+    margin-left: 17px;
+    
+}
+.time{
+    color: white;
+    font-size: 13px;
+    margin-left: 17px;
+}
+.decription{
+    height: 225px;
+    width: 280px;
+}
+.rightside button{
+    margin-top: 19px;
+    height: 27px;
+    width: 105px;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    background: #148A08;
+}
+.des{
+    margin-top: 29px;
+    margin-left: 17px;
+    /* width: 340px; */
+    margin-right: 17px;
+    /* display: flex; */
+    font-size: 13px;
+    text-align: justify;
+    
+}
+/* notes component css*/ 
+.notes{
+    background: #F1C75B;
+    
+    border-radius: 23px;
+   
+
+}
+
+.notes h1{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.notes textarea{
+    font: 20px 'Gloria Hallelujah', cursive;
+    line-height: 1.5;
+    border: 0;
+    border-radius: 3px;
+    background: #F1C75B;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    
+    width: 370px;
+    height: 295px;
+    box-shadow: none;
+    resize: none;
+    margin-left: 35px;
+    margin-top: 14px;
+}
+
+/* timer component css*/
+
+.timers{
+    display: flex;
+    width: 968px;
+    height: 163px;
+    background: #1E2343;
+    border-radius: 23px;
+
+}
+.anim{
+    margin-left: 105px;
+}
+.anim img{
+    height: 162px;
+    width: 230px;
+}
+
+.stopwatch{
+    display: flex;
+    
+    margin-left: 123px;
+    flex-direction: column;
+}
+.watch h1{
+    color:  
+    #949494;
+    
+}
+.watch{
+    display: flex;
+    height: 120px;
+    width: 372px;
+    color: #949494;
+}
+.watch span{
+    font-size: 30px;
+}
+
+.hours, .minute, .second{
+    display: flex;
+    flex-direction: column;
+    width: 124px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.increasebtn{
+    width: 22px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 34px;
+    height: 11px;
+    background: 
+    #949494;
+    border: none;
+    
+}
+.decreasebtn{
+    width: 22px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 34px;
+    height: 11px;
+    border: none;
+    background: 
+    #949494;
+    border: none;
+   
+}
+
+.startbtn{
+    display: flex;
+    
+    width: 289px;
+    margin-left: 42px;
+}
+.startbtn button{
+    width: 287px;
+    height: 27px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #FF6A6A;
+    color: white;
+    font-weight: 600;
+}
