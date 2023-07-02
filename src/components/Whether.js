@@ -11,7 +11,7 @@ function Whether() {
   const [weather, setWeather] = useState ([]);
 
   const fetchWeatherData = async () => {
-    const url = "http://api.weatherapi.com/v1/current.json?key=4332150cbcb14fd08df92431232606&q=pindwara";
+    const url = "https://api.weatherapi.com/v1/current.json?key=4332150cbcb14fd08df92431232606&q=pindwara";
     let data = await fetch(url);
     let parsedData = await data.json();
     setWeather(parsedData.current)

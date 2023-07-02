@@ -24,9 +24,12 @@ function News() {
     <>
       
         <div className={styledas.right} >
-        {news.map((article,index) => (
-          <div className={styledas.news} key={index}>
-            <div className={styledas.transbac}>
+        
+         
+         <div className={styledas.news} >
+         {news.map((article,index) => {
+           return<> 
+           <div className={styledas.transbac} key={index}>
               <img src={article.urlToImage} alt="" />
               <div className={styledas.light}>
                 <p className={styledas.para}>{article.title}</p>
@@ -38,8 +41,10 @@ function News() {
                 {article.description}
               </p>
             </div>
+            </>
+            })}
           </div>
-           ))}
+           
         </div>
      
     </>
